@@ -26,6 +26,7 @@ jobs:
         uses: subosito/flutter-action@v2.16.0
         with:
           flutter-version: '3.37.0' # Dart 3.11.0, support webview_flutter 4.14.0
+          channel:''
           architecture: x64
           cache: true
 
